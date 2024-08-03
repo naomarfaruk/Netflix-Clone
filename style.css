@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #000000;
+}
+
+.headbg {
+    background-color: rgb(8, 24, 43);
+
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    height: 620px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.overleyar {
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 620px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+    margin: auto;
+    padding: 10px 0px;
+
+}
+
+nav>span>img {
+    height: 40px;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.login-button {
+    background-color: red;
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding: 7px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+
+}
+
+.login-button>a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-button:hover {
+    color: white;
+    background-color: rgb(189, 8, 8);
+    transition: all;
+    transition: .5s;
+}
+
+.middle {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    height: 510px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+    column-gap: 20px;
+}
+
+.middle>:nth-child(1) {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 15px;
+
+}
+
+.middle>:nth-child(2) {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 15px;
+
+}
+
+.middle>:nth-child(3) {
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+
+}
+
+.email-button {
+    margin-top: 10px;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+
+}
+
+.email-button>input {
+    background-color: #0f0f0f;
+    padding: 12px 60px 12px 20px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.email-button>input::placeholder {
+    font-size: 14px;
+
+}
+
+.email-button>input:hover {
+    border: 1px solid red;
+}
+
+.email-button>button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 0px 10px;
+
+    font-weight: 600;
+}
+
+.email-button>button:hover {
+    color: white;
+    background-color: rgb(189, 8, 8);
+    transition: all;
+    transition: .5s;
+}
+
+.separation {
+    background-color: #232323;
+    width: 100%;
+    height: 5px;
+}
+
+.first {
+    color: white;
+    display: flex;
+    width: 75vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+
+}
+
+.first-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.first-heading>h2 {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-heading>p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.first-resource {
+    position: relative;
+    padding: 10px;
+
+}
+
+.first-resource>img {
+    width: 500px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.first-resource>video {
+    position: absolute;
+    width: 450px;
+    top: 60px;
+    right: 10px;
+
+
+
+}
+
+.second {
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-heading {
+    width: 30vw;
+    margin: auto;
+}
+
+.third-resource {
+    width: 35vw;
+}
+
+.faq-box {
+    color: white;
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.faq-box>h2 {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.item {
+    background-color: rgb(45 45 45);
+    width: 75vw;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.item:hover {
+    color: white;
+    background-color: rgb(70, 70, 70);
+    transition: all;
+    transition: .5s;
+}
+.last {
+    display: flex;
+    width: 75vw;
+    height: 120px;
+    margin-top: 60px;
+}
+
+
+.last>.last-small {
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/* .email-button2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.email-button2>input{
+width: 38vw;
+
+
+} */
+
+footer {
+
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin: auto;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+
+
+
+}
+
+footer>h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #ffffffb3;
+    font-size: 14px;
+    font-weight: 100;
+
+}
+
+.footer-flex {
+    display: grid;
+    flex-direction: column;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-flex>a {
+    color: #ffffffb3;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.lang {
+    padding: 4px 15px;
+    margin-top: 20px;
+    background-color: #232323;
+    color: white;
+
+}
+
+.netflixbd {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ffffffb3;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffffb3;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .headbg {
+        height: 500px;
+    }
+    .overleyar{
+        height: 500px;
+    }
+
+    nav {
+        max-width: 90vw;
+        height: 40px;
+        padding-top: 5px;
+
+
+    }
+
+    nav>span>img {
+        height: 20px;
+    }
+
+    .login-button {
+        padding: 4px 10px;
+
+    }
+
+    .login-button>a {
+        font-size: 12px;
+    }
+
+    .middle {}
+
+    .middle>:nth-child(1) {
+        font-size: 24px;
+
+
+
+    }
+
+    .middle>:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .middle>:nth-child(3) {
+        font-size: 14px;
+    }
+
+    .email-button {
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+
+    }
+
+    .email-button>input {
+        padding: 12px 40px 12px 20px;
+        font-size: 12px;
+
+    }
+
+    .email-button>input::placeholder {
+        font-size: 12px;
+
+    }
+
+    .email-button>button {
+        font-size: 18px;
+
+    }
+
+    .first {
+
+        display: flex;
+        width: 85vw;
+        flex-direction: column;
+        padding: 30px 0px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .first-heading {
+        text-align: center;
+    }
+
+    .first-heading>h2 {
+        font-size: 24px;
+    }
+
+    .first-heading>p {
+        font-size: 16px;
+    }
+
+    .first-resource>img {
+        width: 300px;
+
+    }
+
+    .first-resource>video {
+        width: 300px;
+    }
+
+    .second {
+        flex-direction: column-reverse;
+    }
+
+    .third-heading {
+        width: 80vw;
+        margin: 40px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .forth {
+        flex-direction: column-reverse;
+    }
+
+
+    .faq-box>h2 {
+        font-size: 24px;
+        text-align: center;
+
+    }
+
+    .item {
+        width: 80vw;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .item>svg {
+        height: 18px;
+        width: 18px;
+    }
+
+    .last {
+        width: 80vw;
+        height: 100px;
+        margin-top: 60px;
+    }
+
+    .last>.last-small {
+
+        font-size: 14px;
+
+    }
+
+
+}
+
+@media screen and (max-width:1000px) {
+    .footer-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .footer-flex>a {
+        font-size: 12px;
+    }
+
+    .netflixbd {
+        font-size: 12px;
+
+    }
+
+    .netflixbd {
+        font-size: 12px;
+
+    }
+
+    .copyright {
+        text-align: left;
+        font-size: 10px;
+    }
+
+}
