@@ -14,9 +14,7 @@ body {
 }
 
 .headbg {
-    background-color: green;
-
-    background-image: url(/asset/img/bg.jpg);
+    background-image: url(asset/img/bg.jpg);
     background-position: center center;
     background-size: max(1200px, 100vw);
     height: 620px;
